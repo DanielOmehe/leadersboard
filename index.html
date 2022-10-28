@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Leaders Board</title>
+      <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      <div class="wrapper">
+            <h1 class="heading">30 Days of Javascript Challenge LeaderBoard</h1>
+            <form action="#" id="player-data" class="player-data">
+                  <div class="input-field">
+                        <input type="text" class="input" id="first-name" placeholder="First Name">
+                        <input type="text" class="input" id="last-name" placeholder="Last Name">
+                        <input type="text" class="input" id="country" placeholder="Country">
+                        <input type="text" class="input" id="score" placeholder="Score">                  
+                  </div>
+                  <button type="submit" class="submit" id="submit">Add Player</button>
+            </form>
+            <div class="error"></div>
+            <ul class="players" id="players"></ul>
+      </div>
+      <script src="js/all.min.js"></script>
+      <script src="main.js"></script>
+</body>
+</html>
